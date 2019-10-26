@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_violet.mk
+    $(LOCAL_DIR)/aosip_violet.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_violet-user \
+    aosip_violet-userdebug
